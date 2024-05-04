@@ -1,0 +1,101 @@
+*{margin:0;}
+body{
+background-image: url("bg\ img.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.title{
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  font-weight: 500;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  
+}
+
+
+
+.header {
+position: relative;
+text-align: center; 
+padding: 2% 2% 10px 1%;
+background-color: black;
+align-items: center;
+display: flex;
+border-bottom: 0.15px solid black;
+justify-content: space-between;
+height: auto;
+}
+
+
+
+.text-container{
+ width: 50%;
+ text-align: center;
+ margin-top: 11%;
+}
+
+.span{
+font-size: 85px;
+font-style: bold;
+color: red;
+font-family: Arial;
+font-weight: 500;
+}
+
+.span2 {
+  color:white;
+  font-size: 85px;
+  font-style: bold;
+  font-family: Arial;
+  font-weight: 500;
+}
+
+.shop-button{
+  border: solid;
+  border-radius: 25px;
+  border-color: black;
+  width: 250px;
+  height: 55px;
+  text-align: center;
+  background-color:  black;
+  color: white;
+  font-family: "Arial";
+  font-style: bold;
+  font-size: xx-large;
+  cursor: pointer;
+  transform: translateY(90px)  translateX(-300px);
+}
+
+
+
+.img-header{
+  width: 50px;
+  height: 50px;
+}
+.head-content {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  justify-self: right;
+  padding: 10px;
+  transition: 1s;
+    
+}
+.head-content:hover{
+  transform: scale(1.1) translateY(22%);
+  transition: 1s;
+  color: red;
+  text-decoration: underline;
+
+}
+
+.search-bar{
+  background-color: black;
+  color: white;
+  font-family: Arial;
+}
+
